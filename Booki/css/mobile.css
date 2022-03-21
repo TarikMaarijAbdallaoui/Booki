@@ -1,0 +1,296 @@
+@media (max-width : 767px){
+    
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav.entête{
+        margin: 5% 0% 2% 0%;
+    }
+    nav img{
+        padding-left: 10%;
+        width: 50%;
+    }
+    nav .menu{
+            display: flex;
+            width: 100%;
+            padding: 0% 0% 1% 0%;
+        }
+    nav a{
+        display: flex;
+        flex-basis: 50%;
+        justify-content: center;
+        border-bottom: 5px solid lightgray;
+    }
+    nav a:hover{
+        border-top: none;
+        border-bottom-color: #0065FC;
+    }
+    .recherche h1{
+        margin: 8% 1% 1% 1%;
+        font-size: 135%;
+        max-width: 80%;
+    }
+    .recherche p{
+        margin: 3% 1% 7% 1%;
+        max-width: 80%;
+        font-size: 90%;
+    }
+    .barre-recherche{
+        display: flex;
+        justify-content: space-between;
+        border:2px solid #f2f2f2;
+        border-radius: 17px;
+        max-width: 92%;
+    }
+    .barre-recherche i{
+        padding: 5%;
+        min-width: 15%;
+    }
+    .barre-recherche input{
+        flex-basis: 80%;
+        border: none;
+        padding-left: 20px;
+    }
+    .barre-recherche button{
+        border-radius: 15px;
+        padding: 0px 18px;
+    }
+    .barre-recherche button span{
+        display: none;
+    }
+    .barre-recherche button i{
+        display:contents;
+    }
+    .filtres{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtres h2{
+        font-size: 108%;
+        padding: 2% 85% 10% 1%;
+    }
+    .icone{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: -8% 5% -10% 1%;
+    }
+    .icone-economique{
+        height: 45px;
+        width: 50%;
+    }
+    .icone-familial{
+        height: 45px;
+        width: 40%;
+        margin: 0% 6% 3% 1%;
+    }
+    .icone-romantique{
+        height: 45px;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .icone-animaux{
+        height: 45px;
+        width: 65%;
+        margin-bottom: 2%;
+    }
+   
+    .icone-filtre span{
+        display: flex;
+        padding-left: 5%;
+        min-width: -moz-fit-content;
+        text-align: center;
+    }
+    .plus500 .fas{
+        width: 38px;
+        height: 29px;
+    }
+    .fa-info::before {
+        font-size: 75%;
+    }
+    .plus500{
+        margin: 15% 1% 3% 5%;
+    }
+    .appartements{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: -40px;
+    }
+    .appartements .populaire {
+        margin: 1% -5% 2% -5%;
+    }
+    .appartements div{
+        border-radius: 0px;
+    }
+    .populaire{
+        display: flex;
+        margin-right: -18px;
+        margin-left: -18px;
+    }
+    .populaire-texte p, .populaire-texte h3 {
+            margin: 2% 10% 1% -8%;
+            font-size: 90%;
+        }
+    .populaire h2{
+        margin: 5% 0% 0% 7%;
+    }
+    .populaire .fa-chart-line {
+        position: absolute;
+        margin: 1% -7% 1% 1%;
+    }
+    .populaire i{
+        padding-right: 5%;
+    }
+    .populaire article{
+        display: flex;
+        gap:2%;
+        width: 91%;
+        margin-left: 20px;
+        height: 130px;
+        
+    }
+    .populaire div{
+        margin-left: 5%;
+    }
+    .populaire .img{
+       flex-basis: 33%;
+       min-width: 33%;
+    }
+    .populaire .etoile{
+        display: flex;
+       position: absolute;
+       top: 80%;
+    }
+    .appartements #hébergement{
+        background-color: white;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        max-width: 97%;
+    }
+    #hébergement h2{
+        margin: 5% 0% 7% 2%;
+    }
+    #hébergement div{
+        background-color: white;
+        border: none;
+        gap: 15px;
+    }
+    #hébergement article{
+        flex-basis: 100%;
+    }
+    #hébergement .etoile{
+        display: flex;
+        max-width: 20%;
+        font-size: 80%;
+        margin-top: 3%;
+    }
+    #hébergement a{
+        padding: 10% 1% 13% 0%;
+    }
+    .annonces .img{
+        width: 100%;
+    }
+    .activités-Marseille {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+    }
+    .activités-Marseille h2 {
+        margin: 4% 1% 5% 8%;
+    }
+    #activités{
+        display: flex;
+        max-width: 100%;
+    }
+    
+    #activités .simple-1{
+        flex-basis: 95%;
+        margin: 3% 0% 0% 4%;
+        height: 200px;
+    }
+    #activités .simple-1 .img-simple1 {
+        max-width: 100%;
+        height: 150px;
+    }
+    
+    #activités .composé-1{
+        flex-direction: column ;
+        flex-basis: 95%;
+        height: 450px;
+        margin: 3% 0% -8% 3%;
+    }
+    #activités .composé-1 .pomegues {
+        flex-basis: 44%;
+        height: 200px;
+    }
+    #activités .composé-1 .pomegues .img-composé-1 {
+        width: 100%;
+        height: 150px;
+    }
+    #activités .composé-1 .frioul {
+        flex-basis: 44%;
+        height: 200px;
+    }
+    #activités .composé-1 .frioul .img-composé-2 {
+        width: 100%;
+        height: 150px;
+    }
+    #activités .simple-2{
+        flex-basis: 95%;
+        margin: 3% 0% 0% 4%;
+        height: 200px;
+    }
+    #activités .simple-2 .img-simple2{
+        max-width: 100%;
+        height: 150px;
+    }
+    #activités .composé-2{
+        flex-direction: column ;
+        flex-basis: 95%;
+        height: 450px;
+        margin: 3% 0% -8% 3%;
+        gap: 6%;
+    }
+    #activités .composé-2 .garde{
+        flex-basis: 44%;
+        height: 200px;
+    }
+    #activités .composé-2 .garde .img-composé-3{
+        width: 100%;
+        height: 150px;
+    }
+    #activités .composé-2 .longchamp{
+        flex-basis: 44%;
+        height: 200px;
+    }
+    #activités .composé-2 .longchamp .img-composé-4{
+        width: 100%;
+        height: 150px;
+    }
+    #activités h3{
+        text-align: start;
+        padding-left: 5%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+        max-width: 100%;
+    }
+    footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 5%;
+    }
+    footer div h4{
+        margin-bottom: 10px;
+    }
+    footer div p{
+        margin: 2% 0% 2% 1%;
+    }
+    
+}

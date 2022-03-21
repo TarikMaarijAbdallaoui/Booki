@@ -1,0 +1,149 @@
+@media (max-width : 991px) {
+
+    .filtre{
+        gap:2%
+    }
+    .recherche p {
+        max-width: 47%;
+        font-size: 86%;
+        margin: -1% 1% 2% 0%;
+    }
+    .icone {
+        flex-basis: 60%;
+        justify-content: space-between;
+    }
+    .icone-filtre{
+        display: flex;
+        flex-basis:45%;
+    }
+    .icone-filtre span {
+        font-weight: bold;
+        padding: 10px;
+        font-size: 75%;
+    }
+    #hébergement h2 {
+        margin: 2% 0% 2% 2.5%;
+    }
+    
+    .appartements{
+        flex-direction: column;
+    }
+    .appartements .populaire {
+        margin: 1% 1% 2% 1%;
+        padding-bottom: 30px;
+    }
+    .appartements #hébergement{
+        margin: 1% 1% 5% 1%;
+    }
+    .barre-recherche{
+        justify-content: center;
+    }
+    .populaire article{
+            height: 160px;
+    }
+    .populaire h2{
+        margin: 1% 0% 0% 5%;
+    }
+    .populaire .fa-chart-line {
+        position: absolute;
+        margin-right: -3%;
+    }
+    .populaire .img{
+        min-width: 55%;
+    }
+    .populaire-texte p, .populaire-texte h3 {
+        margin-left: -5%;
+        font-size: 100%;
+    }
+    
+    #activités{
+       float: left;
+       flex-wrap: wrap;
+       display: block;
+       width: 100%;
+       height: auto;
+    }
+    .activités-Marseille {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+    }
+    .activités-Marseille h2 {
+        margin: 4% 1% 2% 6%;
+    }
+    #activités .simple-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 2% 6% 2%;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 0px 15px #0000002e;
+        flex-basis: 21%;
+        height: 200px;
+    }
+    #activités .simple-1 .img-simple1 {
+        width: 100%;
+        height: 23%;
+    }
+    #activités .simple-2 {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 2% 4% 2%;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 0px 15px #0000002e;
+        flex-basis: 21%;
+        height: 200px;
+    }
+    #activités .simple-2 .img-simple2 {
+        width: 100%;
+        height: 23%;
+    }
+    #activités .composé-1{
+        flex-direction: row;
+        padding-left: 1%;
+        flex-wrap: wrap;
+        gap:5%
+    }
+    #activités .composé-1 .pomegues{
+        flex-basis: 47%;
+        height: 200px;
+    }
+    #activités .composé-1 .pomegues .img-composé-1 {
+        width: 100%;
+        height: 21%;
+    }
+    #activités .composé-1 .frioul{
+        flex-basis: 47%;
+        height: 200px;
+    }
+    #activités .composé-1 .frioul .img-composé-2 {
+        width: 100%;
+        height: 44%;
+    }
+    #activités .composé-2{
+        flex-direction: row;
+        padding-left: 1%;
+        flex-wrap: wrap;
+        gap:5%
+    }
+    #activités .composé-2 .garde{
+        flex-basis: 47%;
+        height: 200px;
+    }
+    #activités .composé-2 .garde .img-composé-3 {
+        width: 100%;
+        height: 45%;
+    }
+    #activités .composé-2 .longchamp{
+        flex-basis: 47%;
+        height: 200px;
+    }
+    #activités .composé-2 .longchamp .img-composé-4 {
+        width: 100%;
+        height: 40%;
+    }
+    
+    footer div{
+        text-align: center;
+        margin-top: 0px;
+    }
+}
